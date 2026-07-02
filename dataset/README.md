@@ -1,18 +1,15 @@
 # Dataset
 
-This folder contains the network traffic dataset used for building the cybersecurity dashboard.
+This project uses a publicly available cybersecurity network traffic dataset.
 
-Dataset columns include:
+Due to GitHub file size limitations, the dataset is not included in this repository.
 
-- timestamp
-- source_ip
-- dest_ip
-- protocol
-- action
-- threat_label
-- log_type
-- bytes_transfered
-- user_agent
-- request_path
+Dataset file used:
+- cybersecurity_threat_detection_logs.csv
 
-The dataset is imported into ClickHouse and queried using SQL for visualization in Grafana.
+To use this project:
+1. Download the dataset.
+2. Place it inside the `dataset/` folder.
+3. Import it into ClickHouse.
+
+The table schema is available in `queries/create_table.sql`.
