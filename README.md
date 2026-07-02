@@ -14,19 +14,6 @@ The dashboard provides insights into network traffic, protocol usage, threat dis
 - SQL
 - CSV Dataset
 
-## Architecture
-
-- CSV Dataset
-      │
-      ▼
-ClickHouse Database
-      │
-      ▼
-Grafana
-      │
-      ▼
-Cybersecurity Dashboard
-
 ## Dashboard Panels
 
 The dashboard contains five visualizations:
